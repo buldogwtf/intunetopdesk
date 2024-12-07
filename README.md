@@ -25,3 +25,6 @@ put the pyton script somewhere.
 
 You have to have from msal import ConfidentialClientApplication installed.
 
+You can run this script as example every morning at 8 through crontab:
+
+0 8 * * * /usr/bin/python3 /path/to/your/script.py
