@@ -31,7 +31,7 @@ def get_new_computers_from_graph_api():
     access_token = get_graph_api_token()
     headers = {'Authorization': f'Bearer {access_token}'}
 
-    one_day_ago = datetime.datetime.utcnow() - datetime.timedelta(days=10)
+    one_day_ago = datetime.datetime.utcnow() - datetime.timedelta(days=1) # Change days if needed
     one_day_ago_iso = one_day_ago.strftime('%Y-%m-%dT%H:%M:%SZ')
 
     print("Fetching managed devices from Microsoft Graph API...")
