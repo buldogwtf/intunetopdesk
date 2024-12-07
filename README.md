@@ -23,5 +23,5 @@ topdesk_api_key = 'your-topdesk-api-key'
 
 put the pyton script somewhere.
 
-You have to have:  from msal import ConfidentialClientApplication installed.
+You have to have from msal import ConfidentialClientApplication installed.
 
